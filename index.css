@@ -6,14 +6,14 @@
      font-family: 'Fjalla One', sans-serif;
 }
 
-
+/* heading area start form here */
 
 .header{
      position: relative;
      background-image: url(img/heade-banner.jpg);
      background-repeat: no-repeat;
      background-size: cover;
-     padding-bottom: 500px;
+     padding-bottom: 700px;
      display: flex;
      flex-direction: row;
      justify-content: space-between;
@@ -26,21 +26,28 @@
 .header .nav ul li{
      list-style-type: none;
      display: inline-block;
-     background-color: #faba32;
-     padding: 10px;
+     background-color: #fabb3216;
+     border:1px solid #faba32;
+     border-radius: 5px;
+     margin: 10px;
      margin-right: 50px;
 }
 .header .nav ul li a{
+     display: block;
      text-decoration: none;
-     color: #fff;
+     color: #719a0a;
      text-align: center;
      text-transform: capitalize;
-     padding: 10px 20px;
-     
+     padding: 10px 25px; 
+}
+ .nav ul li a:hover{
+     background: transparent;
+     background-color: #faba32;
+     color: #fff;
 }
 .header .serch{
      position: absolute;
-     top:300px;
+     top:400px;
      left: 35%;
 }
 .header .serch input{
@@ -58,12 +65,12 @@
      padding: 15px;
      border: 0;
      outline: 0;
-     background-color: #faba32;
+     background-color: orangered;
      color: #fff;
      text-transform: capitalize;
      cursor: pointer;
-
-     
 }
+/* end heading area */
+
 
 
