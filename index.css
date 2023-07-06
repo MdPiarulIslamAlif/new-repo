@@ -7,7 +7,15 @@
 }
 
 /* heading area start form here */
-
+.header::after{
+     position: absolute;
+     content: '';
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     background-color: rgba(0, 0, 0, 0.6);
+}
 .header{
      position: relative;
      background-image: url(img/heade-banner.jpg);
@@ -20,9 +28,17 @@
      align-items: center;
 }
 .header .logo .logo-img{
+     position: relative;
+     z-index: 1;
      height: 120px;
      margin-left: 30px;
 }
+.header .nav {
+     position: sticky;
+     z-index: 1;
+     top: 2px;
+}
+
 .header .nav ul li{
      list-style-type: none;
      display: inline-block;
@@ -47,6 +63,7 @@
 }
 .header .serch{
      position: absolute;
+     z-index: 1;
      top:400px;
      left: 35%;
 }
