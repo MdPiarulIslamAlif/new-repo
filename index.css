@@ -7,13 +7,63 @@
 }
 
 
+
 .header{
+     position: relative;
      background-image: url(img/heade-banner.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding-bottom: 500px;
      display: flex;
-     justify-content: space-around;
+     flex-direction: row;
+     justify-content: space-between;
      align-items: center;
 }
 .header .logo .logo-img{
      height: 120px;
+     margin-left: 30px;
 }
+.header .nav ul li{
+     list-style-type: none;
+     display: inline-block;
+     background-color: #faba32;
+     padding: 10px;
+     margin-right: 50px;
+}
+.header .nav ul li a{
+     text-decoration: none;
+     color: #fff;
+     text-align: center;
+     text-transform: capitalize;
+     padding: 10px 20px;
+     
+}
+.header .serch{
+     position: absolute;
+     top:300px;
+     left: 35%;
+}
+.header .serch input{
+     background-color: #fff;
+     color: rgba(0, 0, 0, 0.68);
+     text-transform: capitalize;
+     border: 0;
+     outline: 0;
+     padding:15px;
+     width: 500px;
+}
+.header .serch .btn{
+     position: absolute;
+     left: 438px;
+     padding: 15px;
+     border: 0;
+     outline: 0;
+     background-color: #faba32;
+     color: #fff;
+     text-transform: capitalize;
+     cursor: pointer;
+
+     
+}
+
 
